@@ -14,7 +14,13 @@ for elements in range(9):
 
 
 
+
 print(a_list)
 # a_list.append(1)
 # a_list.append(9)
 # print( a_list)
+for elements in a_list:
+ sorted(a_list)
+ print(a_list)
+
+

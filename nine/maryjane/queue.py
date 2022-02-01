@@ -1,13 +1,34 @@
 
 arrayList=[]
 count=0
-for count in range(3):
-  num=input('enter number:')
+
+
+
+
+
+
+
+
+
+
+
+for count in range(5):
+  num=int(input('enter number:'))
+  numerics=num
+  arrayList.append(numerics)
   count+=1
-  arrayList.append(num)
-  for numbers in arrayList:
-    pass
-print(arrayList)
+  # if (num != arrayList[count-1]):
+  print(arrayList)
+
+
+
+
+
+
+
+
+
+# print(arrayList)
 
 
 

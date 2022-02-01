@@ -8,7 +8,10 @@ for filename in myFiles:
     print(os.path.join('C://Users//thankyou', filename))
 
 
+print(os.path.abspath('.//Scripts'))
 
+
+# print(os.path.abspath('.//Scripts'))
 
 
 

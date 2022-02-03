@@ -19,6 +19,12 @@ print(os.path.isabs('.'))
 
 print(os.path.isabs(os.path.abspath('.')))
 
+print(os.path.relpath('C://Ubuntu', 'C://'))
+
+print(os.getcwd())
+os.path.getsize('C://Ubuntu//System32//calc.exe')
+
+path='C://linux//System32//calc.exe'
 
 
 

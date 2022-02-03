@@ -20,7 +20,6 @@
 
 
 
-
 num= int (input("enter length of triangle"))
 
 # for number in range (num, 1):

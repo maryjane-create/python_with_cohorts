@@ -1,4 +1,5 @@
 import datetime
+import json
 import random
 import time
 
@@ -12,6 +13,7 @@ def chatbot():
 
         dictionary=open('home/nonyerem/maryjane.json')
         dictionary.read()
+        dict=json.loads(dictionary)
 
 
         # dictionary = {

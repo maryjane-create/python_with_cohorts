@@ -1,5 +1,9 @@
 class Student:
+
+
+
     def __init__(self, student_name, marks):
+
         self.student_name=student_name
         self.marks=marks
 
@@ -10,6 +14,7 @@ class Student:
         return self.student_name
 
     def set_marks(self, marks):
+
         self.marks=marks
 
     def get_marks(self):
@@ -17,15 +22,15 @@ class Student:
 
 
 def main():
+    student=Student(student_name="mary jane", marks=9)
+    print(student.get_student_name(), student.get_marks())
+    student.set_studentName(studentName='motun')
+    student.set_marks(90)
+    student1name=student.get_student_name()
+    student1marks=student.get_marks()
+    print(student1name, student1marks)
 
-    student1=Student(student_name="mary jane",marks= 92)
-    print(student1.student_name, student1.marks)
 
 
-
-    student2=Student(student_name="motun", marks=90)
-    print(student2.student_name, student2.marks)
-
-    print(student1.get_student_name())
 
 main()

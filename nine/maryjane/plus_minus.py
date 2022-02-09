@@ -3,7 +3,8 @@ array_element=[]
 negative_values=[]
 positive_values=[]
 zero_values=[]
-for count in range(5):
+count =int(input("please enter number of elements in our array"))
+for count in range(count):
     element=int(input('please enter number'))
     array_element.append(element)
 # print(array_element)

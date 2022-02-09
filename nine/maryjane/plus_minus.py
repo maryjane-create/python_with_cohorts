@@ -4,6 +4,8 @@ negative_values=[]
 positive_values=[]
 zero_values=[]
 count =int(input("please enter number of elements in our array"))
+
+
 for count in range(count):
     element=int(input('please enter number'))
     array_element.append(element)
@@ -18,7 +20,7 @@ for numbers in array_element:
 
 
 print(negative_values, positive_values, zero_values)
-print((len(negative_values)/len(array_element)), (len(positive_values)/len(array_element)), (len(zero_values)/len(array_element)))
+print((len(negative_values)/len(array_element))*(100.000000/100.000000), (len(positive_values)/len(array_element))*(100.000000/100.000000), (len(zero_values)/len(array_element))*(100.000000/100.000000))
 
 
 
